@@ -13,3 +13,4 @@ pids
 
 node_modules/
 build/
+.env

@@ -6,7 +6,7 @@ const tokenDef = require("../build/contracts/GenericERC20.json");
 const Web3 = require("web3");
 const BN = require('bn.js')
 
-const HDWalletProvider = require("truffle-hdwallet-provider-privkey");
+const HDWalletProvider = require("truffle-hdwallet-provider");
 const externalAccountKeys = {
     public: process.env.TEST_PUBLIC_KEY,
     private: process.env.TEST_PRIVATE_KEY
